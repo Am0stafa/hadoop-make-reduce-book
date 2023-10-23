@@ -1,3 +1,7 @@
+// This class extends MapReduceBase and implements Mapper interface.
+// In the map method, it tokenizes the input text lines into words using StringTokenizer.
+// For each word, it emits a key-value pair, where the key is the word and the value is 1.
+
 import java.io.IOException;
 import java.util.StringTokenizer;
 import org.apache.hadoop.io.IntWritable;
