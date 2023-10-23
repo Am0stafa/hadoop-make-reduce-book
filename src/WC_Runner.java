@@ -1,3 +1,8 @@
+// In the main method, it creates a JobConf object to specify the job configuration.
+// It sets the job name, output key and value types, the classes for the mapper, combiner, and reducer, as well as the input and output formats.
+// It also specifies the input and output paths from the command-line arguments.
+// Finally, it submits the job using JobClient.runJob(conf).
+
 import java.io.IOException;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
