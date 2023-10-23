@@ -1,3 +1,7 @@
+// This class also extends MapReduceBase and implements Reducer interface.
+// In the reduce method, it iterates through the values (which are counts of occurrences of a word) and sums them up.
+// It then emits a key-value pair where the key is the word and the value is the total count.
+
 import java.io.IOException;
 import java.util.Iterator;
 import org.apache.hadoop.io.IntWritable;
